@@ -2,7 +2,7 @@
 
 quant de subredes: 001 002 004 008 016  032 064 
                                                                           
-quant de hosts:    256 128 064 032 016 008 004  (subtrair 2 hosts para obter a quantidade de hots possíveis)
+quant de hosts:    256 128 064 032 016 008 004  (subtrair 2 hosts para obter a quantidade de hosts possíveis)
                                                                         
 máscara subrede:   /24 /25 /26 /27 /28 /29 /30
 
