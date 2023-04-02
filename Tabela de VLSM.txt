@@ -1,10 +1,10 @@
 192.168.100.0/24
 
-quant de subredes: 001 002 004 008 016 032 064 
+quant de subredes: 001 002 004 008 016  032 064 
                                                                           
-quant de hosts:       256 128 064 032 016 008 004  (subtrair 2 hosts)
+quant de hosts:    256 128 064 032 016 008 004  (subtrair 2 hosts para obter a quantidade de hots possíveis)
                                                                         
-máscara subrede:    /24  /25  /26  /27 /28 /29 /30
+máscara subrede:   /24 /25 /26 /27 /28 /29 /30
 
 
 192.168.100.0 /27 = 255.255.255.224
@@ -20,10 +20,11 @@ rede I 192.168.100.224
 
 /24
 255.255.255.0
-8   + 8 + 8 + 0  = /24
+8 + 8 + 8 + 0  = /24
 
 255.255.255.               1  + 1  + 1 +  1  + 1 + 1   0   0  (Somar somente os bits setados em 1)
                           128 + 64 + 32 + 16 + 8 + 4   2   1
 
 /30
 255.255.255.252
+8  + 8  + 8 + 6  = /30
